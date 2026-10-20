@@ -1,0 +1,224 @@
+/* Блок 03: Задачи бизнеса. Позиции в локальной системе 1200 px. */
+
+/* блок 3 */
+.problems__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 461px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* От целей бизнеса — к решению на сайте */
+.problems__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 18.22% 27.42% 73.1% 5.33%;
+  line-height: normal;
+  color: var(--color-text);
+  font-size: 32px;
+}
+
+/* С чем ко мне обращаются */
+.problems__eyebrow {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 14.1% 75.92% 82.65% 5.42%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* 6495:403 */
+.problems__conversion-card {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  line-height: normal;
+  left: 64px;
+  padding-inline: 20px;
+  padding-block: 15px;
+  border-radius: 15px;
+  top: 148px;
+  width: 344px;
+}
+
+/* Сайт не продает / Сайт устарел / Выбирают по цене / Конкуренты заметнее */
+.problems__text,
+.problems__text-3,
+.problems__text-5,
+.problems__text-7 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Переработаю подачу услуг и путь к заявке, чтобы посетитель понимал предложение и знал, как / Обновлю содержание и оформление, чтобы сайт отражал урове */
+.problems__text-2,
+.problems__text-4,
+.problems__text-6,
+.problems__text-8 {
+  font-weight: 300;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* 6495:406 */
+.problems__outdated-card {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  line-height: normal;
+  left: 64px;
+  padding-inline: 20px;
+  padding-block: 15px;
+  border-radius: 15px;
+  top: 307px;
+  width: 344px;
+}
+
+/* 6495:409 */
+.problems__price-card {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  line-height: normal;
+  left: 428px;
+  padding-inline: 20px;
+  padding-block: 15px;
+  border-radius: 15px;
+  top: 148px;
+  width: 344px;
+}
+
+/* 6495:412 */
+.problems__competitors-card {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  line-height: normal;
+  left: 792px;
+  padding-inline: 20px;
+  padding-block: 15px;
+  border-radius: 15px;
+  top: 307px;
+  width: 344px;
+}
+
+/* Portal */
+.problems__decoration {
+  position: absolute;
+  left: 922px;
+  width: 140px;
+  height: 140px;
+  top: 130px;
+}
+
+/* image */
+.problems__image,
+.problems__image-2,
+.problems__image-3,
+.problems__image-4,
+.problems__image-5,
+.problems__image-6,
+.problems__image-7,
+.problems__image-8 {
+  position: absolute;
+  display: block;
+  inset: 0;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Dawn */
+.problems__decoration-2 {
+  position: absolute;
+  left: 852px;
+  width: 61px;
+  height: 61px;
+  top: 218px;
+}
+
+/* Dawn */
+.problems__decoration-3 {
+  position: absolute;
+  left: 1051px;
+  width: 79px;
+  height: 79px;
+  top: 98px;
+}
+
+/* Portal */
+.problems__decoration-4 {
+  position: absolute;
+  height: 139px;
+  left: 543px;
+  top: 307px;
+  width: 121px;
+}
+
+/* Portal */
+.problems__decoration-5 {
+  position: absolute;
+  height: 44px;
+  left: 493px;
+  top: 355px;
+  width: 40px;
+}
+
+/* Portal */
+.problems__decoration-6 {
+  position: absolute;
+  height: 44px;
+  left: 674px;
+  top: 355px;
+  width: 40px;
+}
+
+/* Portal */
+.problems__decoration-7 {
+  position: absolute;
+  height: 28px;
+  left: 722px;
+  top: 363px;
+  width: 26px;
+}
+
+/* Portal */
+.problems__decoration-8 {
+  position: absolute;
+  height: 28px;
+  left: 459px;
+  top: 363px;
+  width: 26px;
+}

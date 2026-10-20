@@ -1,0 +1,341 @@
+/* Блок 06: Услуги. Позиции в локальной системе 1200 px. */
+
+/* блок 6 */
+.services__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 898px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* Ваш бизнес — ваш формат сайта */
+.services__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 9.35% 38.33% 86.19% 5.33%;
+  line-height: normal;
+  color: var(--color-text);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* услуги */
+.services__eyebrow {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 7.24% 89.5% 91.09% 5.42%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Состав работы и стоимость обсуждается индивидуально */
+.services__description {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 14.7% 40.75% 82.85% 5.33%;
+  line-height: normal;
+  color: var(--color-muted);
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* 6495:531 */
+.services__row {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 292px;
+}
+
+/* 6495:532 / 6495:542 / 6495:552 / 6495:562 / 6495:572 / 6495:582 */
+.services__column,
+.services__column-4,
+.services__column-7,
+.services__column-10,
+.services__column-13,
+.services__column-16 {
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 0;
+  width: 244px;
+}
+
+/* Лендинг / «Первый запуск» / Дизайн под верстку / Многостраничный сайт / Интернет-магазин / Дополнительные услуги */
+.services__text,
+.services__text-7,
+.services__text-13,
+.services__text-19,
+.services__text-25,
+.services__text-31 {
+  word-break: break-word;
+  font-weight: 400;
+  line-height: normal;
+  min-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-size: 20px;
+  width: min-content;
+}
+
+/* button */
+.services__button,
+.services__button-2,
+.services__button-3,
+.services__button-4,
+.services__button-5,
+.services__button-6 {
+  background-color: var(--color-accent);
+  align-content: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 16px;
+  padding-block: 8px;
+  position: relative;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 118px;
+}
+
+/* Обсудить */
+.services__text-2,
+.services__text-8,
+.services__text-14,
+.services__text-20,
+.services__text-26,
+.services__text-32 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  white-space: nowrap;
+  color: var(--color-background);
+}
+
+/* Одностраничный сайт для презентации продукта, услуги или мероприятия. Знакомит с предложен / Сайт на готовом шаблоне Tilda для старта бизнеса или пров */
+.services__text-3,
+.services__text-9,
+.services__text-15,
+.services__text-21,
+.services__text-27,
+.services__text-33 {
+  word-break: break-word;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 16px;
+  width: 567px;
+}
+
+/* 6495:536 / 6495:546 / 6495:556 / 6495:566 / 6495:576 / 6495:586 */
+.services__column-2,
+.services__column-5,
+.services__column-8,
+.services__column-11,
+.services__column-14,
+.services__column-17 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  text-align: right;
+  width: 233px;
+}
+
+/* 6495:537 / 6495:547 / 6495:557 / 6495:567 / 6495:577 / 6495:587 */
+.services__column-3,
+.services__column-6,
+.services__column-9,
+.services__column-12,
+.services__column-15,
+.services__column-18 {
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+/* от 35 000 ₽ / от 20 000 ₽ */
+.services__text-4,
+.services__text-10 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Сроки: от 14 дней / Сроки: от 5 дней */
+.services__text-5,
+.services__text-11 {
+  font-weight: 300;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Что входит в стоимость? / Какие есть услуги? */
+.services__text-6,
+.services__text-12,
+.services__text-18,
+.services__text-24,
+.services__text-30,
+.services__heading-2 {
+  text-underline-position: from-font;
+  text-decoration-thickness: from-font;
+  text-decoration-style: solid;
+  font-weight: 300;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 14px;
+  text-decoration-line: underline;
+  width: 100%;
+}
+
+/* 6495:541 */
+.services__row-2 {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 178px;
+}
+
+/* 6495:551 */
+.services__row-3 {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 527px;
+}
+
+/* от 40 000 ₽ / от 65 000 ₽ / от 3 000 ₽ */
+.services__text-16,
+.services__text-22,
+.services__text-34 {
+  font-weight: 400;
+  min-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-size: 20px;
+  width: min-content;
+}
+
+/* Сроки: от 14 дней / Сроки: от 21 дней / Сроки: от 31 дней / Сроки: индивидуально */
+.services__text-17,
+.services__text-23,
+.services__text-29,
+.services__text-35 {
+  font-weight: 300;
+  height: 17px;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: 233px;
+}
+
+/* 6495:561 */
+.services__row-4 {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 397px;
+}
+
+/* 6495:571 */
+.services__row-5 {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 657px;
+}
+
+/* от  90 000₽ */
+.services__text-28 {
+  font-weight: 400;
+  min-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-size: 20px;
+  width: min-content;
+  white-space: pre-wrap;
+}
+
+/* 6495:581 */
+.services__row-6 {
+  position: absolute;
+  border-color: var(--color-surface);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding-block: 10px;
+  top: 762px;
+}

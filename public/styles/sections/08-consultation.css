@@ -1,0 +1,276 @@
+/* Блок 08: Консультация. Позиции в локальной системе 1200 px. */
+
+/* блок 8 */
+.consultation__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 563px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* 6501:117 */
+.consultation__layer {
+  position: absolute;
+  bottom: 22.38%;
+  left: calc(50% + 0.5px);
+  top: 17.23%;
+  width: 341px;
+  transform: translateX(-50%);
+}
+
+/* layer */
+.consultation__layer-2 {
+  position: absolute;
+  inset: -0.96% -1.37% -1.93% -1.53%;
+}
+
+/* image */
+.consultation__image,
+.consultation__image-2,
+.consultation__image-3 {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* 6495:629 */
+.consultation__layer-3 {
+  position: absolute;
+  bottom: 14.03%;
+  left: 50%;
+  top: 12.43%;
+  width: 414px;
+  transform: translateX(-50%);
+}
+
+/* layer */
+.consultation__layer-4 {
+  position: absolute;
+  inset: -1.89% -1.85% -1.84% -1.83%;
+}
+
+/* 6504:123 */
+.consultation__layer-5 {
+  position: absolute;
+  bottom: 17.76%;
+  left: 50%;
+  top: 14.74%;
+  width: 374px;
+  transform: translateX(-50%);
+}
+
+/* layer */
+.consultation__layer-6 {
+  position: absolute;
+  inset: -1.86% -1.73% -1.56% -1.89%;
+}
+
+/* 6501:103 */
+.consultation__layer-7 {
+  position: absolute;
+  background-color: var(--color-background);
+  filter: blur(20px);
+  height: 252px;
+  left: 0;
+  top: 311px;
+  width: 1200px;
+}
+
+/* 6495:630 */
+.consultation__heading {
+  word-break: break-word;
+  position: absolute;
+  bottom: 25.58%;
+  font-weight: 400;
+  line-height: 0;
+  left: calc(50% + 0.5px);
+  color: var(--color-text);
+  font-size: 32px;
+  text-align: center;
+  top: 60.21%;
+  width: 851px;
+  transform: translateX(-50%);
+}
+
+/* Создание карты сайта, расчет стоимости и подбор референсов */
+.consultation__text {
+  line-height: normal;
+}
+
+/* — бесплатно */
+.consultation__text-2 {
+  line-height: normal;
+  color: var(--color-accent);
+}
+
+/* Кнопка */
+.consultation__button {
+  position: absolute;
+  background-color: var(--color-accent);
+  align-content: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  padding-inline: 30px;
+  padding-block: 14px;
+  border-radius: 100px;
+  top: calc(50% + 240px);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Получить бесплатную консультацию */
+.consultation__text-3 {
+  word-break: break-word;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-background);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+/* Обсудим вашу задачу — подготовлю структуру сайта, примеры решений и предварительный расчет */
+.consultation__description {
+  word-break: break-word;
+  position: absolute;
+  bottom: 16.34%;
+  font-weight: 400;
+  line-height: normal;
+  left: 50%;
+  color: var(--color-muted);
+  font-size: 18px;
+  text-align: center;
+  top: 75.84%;
+  width: 684px;
+  transform: translateX(-50%);
+}
+
+/* Portal */
+.consultation__decoration {
+  position: absolute;
+  height: 139px;
+  left: 842px;
+  top: 176px;
+  width: 121px;
+}
+
+/* image */
+.consultation__image-4,
+.consultation__image-5,
+.consultation__image-6,
+.consultation__image-7,
+.consultation__image-8,
+.consultation__image-9 {
+  position: absolute;
+  display: block;
+  inset: 0;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Portal */
+.consultation__decoration-2 {
+  position: absolute;
+  height: 44px;
+  left: 973px;
+  top: 224px;
+  width: 40px;
+}
+
+/* Portal */
+.consultation__decoration-3 {
+  position: absolute;
+  height: 28px;
+  left: 1021px;
+  top: 232px;
+  width: 26px;
+}
+
+/* 6504:130 */
+.consultation__row {
+  position: absolute;
+  display: flex;
+  height: 139px;
+  align-items: center;
+  justify-content: center;
+  left: 237px;
+  top: 176px;
+  width: 121px;
+}
+
+/* layer */
+.consultation__layer-8,
+.consultation__layer-9,
+.consultation__layer-10 {
+  flex: none;
+  transform: scaleY(-1) rotate(180deg);
+}
+
+/* Portal */
+.consultation__decoration-4 {
+  height: 139px;
+  position: relative;
+  width: 121px;
+}
+
+/* 6504:131 */
+.consultation__row-2 {
+  position: absolute;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  left: 187px;
+  top: 224px;
+  width: 40px;
+}
+
+/* Portal */
+.consultation__decoration-5 {
+  height: 44px;
+  position: relative;
+  width: 40px;
+}
+
+/* 6504:132 */
+.consultation__row-3 {
+  position: absolute;
+  display: flex;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  left: 153px;
+  top: 232px;
+  width: 26px;
+}
+
+/* Portal */
+.consultation__decoration-6 {
+  height: 28px;
+  position: relative;
+  width: 26px;
+}
+
+/* Движение только внешних волн: фото и его близкий контур остаются неподвижными. */
+.consultation__image-2,
+.consultation__image-3 {
+  transform-origin: 50% 50%;
+  animation: consultation-wave 5s ease-in-out infinite;
+  animation-play-state: paused;
+}
+.consultation__section.waves-visible .consultation__image-2,
+.consultation__section.waves-visible .consultation__image-3 { animation-play-state: running; }
+@keyframes consultation-wave {
+  0%, 100% { transform: rotate(-3deg) scale(.975); opacity: .8; }
+  50% { transform: rotate(3deg) scale(1.055); opacity: 1; }
+}
+
+.consultation__image-2 { animation-name: consultation-wave-large; animation-duration: 5s; }
+.consultation__image-2, .consultation__image-3 { animation-delay: 0s; }
+@keyframes consultation-wave-large { 0%,100% { transform: rotate(-3deg) scale(.97); opacity:.8; } 50% { transform: rotate(3deg) scale(1.09); opacity:1; } }
+/* Движение волн явно включено владельцем; вне экрана его приостанавливает observer. */

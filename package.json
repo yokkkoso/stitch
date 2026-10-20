@@ -1,0 +1,11 @@
+{
+  "name": "stitch",
+  "private": true,
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "serve public"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}

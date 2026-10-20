@@ -1,0 +1,263 @@
+/* Блок 05: Преимущества. Позиции в локальной системе 1200 px. */
+
+/* блок 5 */
+.benefits__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 645px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* Преимущества для бизнеса в работе со мной */
+.benefits__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 13.02% 18.75% 80.78% 5.33%;
+  line-height: normal;
+  color: var(--color-text);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* почему стоит выбрать меня */
+.benefits__eyebrow {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 10.08% 74.67% 87.6% 5.42%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* 6495:488 */
+.benefits__card {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 272px;
+  width: 529px;
+}
+
+/* Rectangle 40 2 / Rectangle 40 1 */
+.benefits__layer,
+.benefits__layer-2,
+.benefits__layer-3,
+.benefits__layer-5,
+.benefits__layer-6,
+.benefits__layer-7,
+.benefits__layer-8 {
+  position: relative;
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+}
+
+/* image */
+.benefits__image,
+.benefits__image-2,
+.benefits__image-3,
+.benefits__image-4,
+.benefits__image-5,
+.benefits__image-6,
+.benefits__image-7 {
+  position: absolute;
+  inset: 0;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* 6495:490 / 6495:495 / 6495:500 / 6495:507 / 6495:512 / 6495:517 / 6495:522 */
+.benefits__column,
+.benefits__column-2,
+.benefits__column-3,
+.benefits__column-4,
+.benefits__column-5,
+.benefits__column-6,
+.benefits__column-7 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  line-height: normal;
+  min-width: 1px;
+  position: relative;
+}
+
+/* Фокус на результате / Базовое SEO / Универсальный специалист / Официальное сотрудничество / На любом экране / Быстрая загрузка / Сервис и поддержка */
+.benefits__text,
+.benefits__text-3,
+.benefits__text-5,
+.benefits__text-9,
+.benefits__text-11,
+.benefits__text-13,
+.benefits__text-15 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Для меня важно помочь бизнесу сделать все возможное для лучшего результата / Настрою заголовки и описания страниц для поиска. / Тексты, дизайн и сборк */
+.benefits__text-2,
+.benefits__text-4,
+.benefits__text-6,
+.benefits__text-10,
+.benefits__text-12,
+.benefits__text-14,
+.benefits__text-16 {
+  font-weight: 300;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* 6495:493 */
+.benefits__card-2 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 396px;
+  width: 529px;
+}
+
+/* 6495:498 */
+.benefits__card-3 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 520px;
+  width: 529px;
+}
+
+/* 6495:503 */
+.benefits__consultation-button {
+  position: absolute;
+  background-color: var(--color-accent);
+  align-content: stretch;
+  display: flex;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+  left: 607px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 520px;
+  width: 529px;
+}
+
+/* 6495:504 */
+.benefits__layer-4 {
+  word-break: break-word;
+  font-weight: 400;
+  line-height: 0;
+  position: relative;
+  flex-shrink: 0;
+  color: inherit;
+  font-size: 24px;
+  text-align: center;
+  width: 342px;
+}
+
+/* Получить бесплатную */
+.benefits__text-7 {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+/* консультацию */
+.benefits__text-8 {
+  line-height: normal;
+}
+
+/* 6495:505 */
+.benefits__card-4 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 148px;
+  width: 529px;
+}
+
+/* 6495:510 */
+.benefits__card-5 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 607px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 272px;
+  width: 529px;
+}
+
+/* 6495:515 */
+.benefits__card-6 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 607px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 148px;
+  width: 529px;
+}
+
+/* 6495:520 */
+.benefits__card-7 {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  left: 607px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 396px;
+  width: 529px;
+}

@@ -1,0 +1,351 @@
+/* Блок 09: Вопросы. Позиции в локальной системе 1200 px. */
+
+/* блок 9 */
+.faq__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 531px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* 6495:638 */
+.faq__column {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 148px;
+  width: 606px;
+}
+
+/* 6495:639 / 6495:655 */
+.faq__row,
+.faq__row-5 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* 6495:640 */
+.faq__text {
+  font-weight: 500;
+  line-height: 0;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  width: 35px;
+}
+
+/* 0 / 1 / 2 */
+.faq__text-2,
+.faq__text-3,
+.faq__text-12,
+.faq__text-13 {
+  line-height: normal;
+}
+
+/* Сколько стоит сайт и от чего зависит цена? / Сколько времени займет разработка? */
+.faq__text-4,
+.faq__text-14 {
+  flex: 1 0 0;
+  font-weight: 400;
+  line-height: normal;
+  min-width: 1px;
+  position: relative;
+  color: var(--color-text);
+}
+
+/* 6495:642 */
+.faq__column-2 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 240px;
+  width: 606px;
+}
+
+/* 6495:643 / 6495:647 / 6495:659 / 6495:663 / 6495:667 */
+.faq__row-2,
+.faq__row-3,
+.faq__row-6,
+.faq__row-7,
+.faq__row-8 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* 03 / 05 / 07 / 04 / 06 / 08 */
+.faq__text-5,
+.faq__text-7,
+.faq__text-9,
+.faq__text-15,
+.faq__text-17,
+.faq__text-19 {
+  font-weight: 500;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+/* Как проходит оплата? / А если мне не понравится дизайн? / Что делать, если мой бюджет ограничен? / У меня нет текстов и фото. Что делать? / Можно нача */
+.faq__text-6,
+.faq__text-8,
+.faq__text-10,
+.faq__text-16,
+.faq__text-18,
+.faq__text-20 {
+  flex: 1 0 0;
+  font-weight: 400;
+  min-width: 1px;
+  position: relative;
+  color: var(--color-text);
+}
+
+/* 6495:646 */
+.faq__column-3 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 332px;
+  width: 606px;
+}
+
+/* 6495:650 */
+.faq__column-4 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 424px;
+}
+
+/* 6495:651 */
+.faq__row-4 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 20px;
+  width: 586px;
+}
+
+/* 6495:654 */
+.faq__column-5 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 194px;
+  width: 606px;
+}
+
+/* 6495:656 */
+.faq__text-11 {
+  font-weight: 500;
+  line-height: 0;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+/* 6495:658 */
+.faq__column-6 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 286px;
+  width: 606px;
+}
+
+/* 6495:662 */
+.faq__column-7 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 378px;
+  width: 606px;
+}
+
+/* 6495:666 */
+.faq__column-8 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 1px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 530px;
+  padding: 10px;
+  top: 470px;
+  width: 606px;
+}
+
+/* Отвечаю на ваши вопросы */
+.faq__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 15.82% 50.33% 76.65% 5.33%;
+  line-height: normal;
+  color: var(--color-text);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* FAQ */
+.faq__eyebrow {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 12.24% 92.08% 84.93% 5.42%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Персонаж_дизайн_и_IT 3 (2) 1 */
+.faq__layer {
+  position: absolute;
+  height: 368px;
+  left: 80px;
+  top: 148px;
+  width: 375px;
+}
+
+/* layer */
+.faq__layer-2 {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* image */
+.faq__image {
+  position: absolute;
+  height: 102.74%;
+  left: -1.09%;
+  max-width: none;
+  top: -2.74%;
+  width: 102.17%;
+}
+
+
+/* Раскрывающиеся ответы находятся в потоке и сдвигают следующие вопросы и контакты. */
+.faq__section {
+  height: auto;
+  min-height: 531px;
+  padding-top: 148px;
+  padding-bottom: 15px;
+}
+.faq__list { margin-left: 530px; width: 606px; }
+.faq__list .faq__item {
+  position: static;
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  padding: 0;
+}
+.faq__item summary {
+  list-style: none;
+  cursor: pointer;
+  min-height: 45px;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+.faq__item summary > span:last-child { transition: color 180ms ease; }
+.faq__item summary:hover > span:last-child,
+.faq__item[open] summary > span:last-child { color: var(--color-accent); }
+.faq__answer {
+  padding: 4px 10px 20px;
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+/* Заголовки сохраняют исходные позиции, когда высота блока увеличивается. */
+.faq__heading { inset: 84px auto auto 64px; }
+.faq__eyebrow { inset: 65px auto auto 65px; }
+
+/* Сохраняем переносы строк, заданные в ответах content.js. */
+.faq__answer { white-space: pre-line; }
+
+/* Общий перелив с этапами, но с исходной толщиной линии FAQ — 1 px. */
+.faq__item summary::before {
+  top: -1px;
+  height: 1px;
+}

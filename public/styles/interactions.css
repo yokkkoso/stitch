@@ -1,0 +1,154 @@
+/* Единые состояния интерактивных элементов. Исходная геометрия блоков сохранена. */
+.contact-button {
+  color: var(--color-background);
+  box-shadow: inset 0 0 0 2px var(--color-accent);
+  transition: background-color 260ms ease, color 260ms ease;
+}
+.contact-button span, .contact-button p { color: inherit; }
+.contact-button:hover, .contact-button:focus-visible {
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+.works__section [data-action="project"] {
+  border: 2px solid var(--color-accent);
+  background-color: transparent;
+  color: var(--color-text);
+  transition: background-color 260ms ease, color 260ms ease;
+}
+.works__section [data-action="project"] p { color: inherit; }
+.works__section [data-action="project"]:is(:hover, :focus-visible) {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+}
+
+.services__section .service-details {
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 5px;
+  transition: color 220ms ease, text-decoration-color 220ms ease;
+}
+.services__section .service-details:is(:hover, :focus-visible) {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+[data-social] { transition: translate 220ms ease, filter 220ms ease; }
+[data-social]:is(:hover, :focus-visible) { translate: 0 -4px; filter: drop-shadow(0 0 12px #b99aff35); }
+
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  width: min(1200px, 100%);
+  margin-inline: auto;
+  height: var(--header-height, 60px);
+  z-index: 20;
+  background: var(--color-background);
+}
+.site-header__inner {
+  position: relative;
+  width: 1200px;
+  height: 60px;
+  margin-inline: auto;
+  transform-origin: top left;
+}
+.site-header .hero__brand { inset: 19px auto auto 64px; }
+.site-header nav a { transition: color 200ms ease; }
+.site-header nav a:hover { color: var(--color-accent); }
+@media (max-width: 1000px) { .site-header__inner { margin-inline: 0; } }
+
+/* Небольшая подсказка рядом с услугой: без затемнения и блокировки прокрутки. */
+.service-dialog {
+  position: fixed; z-index: 35; margin: 0;
+  width: min(480px, calc(100vw - 24px)); max-height: calc(100dvh - 90px);
+  padding: 24px; overflow: auto; border: 1px solid #b99aff45;
+  border-radius: 16px; background: #1b1722; color: var(--color-text);
+  box-shadow: 0 12px 36px #0005;
+}
+.service-dialog[hidden], .cookie-notice[hidden] { display: none; }
+.service-dialog:not([hidden]) { animation: small-window-in 180ms ease-out; }
+.service-dialog__close, .reviews-dialog__close { position: absolute; top: 4px; right: 8px; width: 32px; height: 32px; font-size: 24px; }
+.service-dialog .service-dialog__eyebrow { color: var(--color-accent); font-size: 14px; font-weight: 300; margin-bottom: 8px; }
+.service-dialog h2 { padding-right: 12px; font-size: 20px; font-weight: 400; line-height: 1.4; margin-bottom: 14px; }
+.service-dialog__list { list-style: none; margin: 0; padding: 0; }
+.service-dialog__list li { display: flex; gap: 8px; color: #c6becd; font-size: 14px; font-weight: 300; line-height: 1.7; margin-top: 9px; }
+.service-dialog__dash { color: #b99aff; flex-shrink: 0; }
+@keyframes small-window-in { from { opacity: 0; translate: 0 6px; } to { opacity: 1; translate: 0 0; } }
+
+.reviews-dialog { width: min(720px, calc(100% - 32px)); max-height: calc(100dvh - 40px); overflow: auto; padding: 36px; border: 1px solid #b99aff70; border-radius: 22px; background: var(--color-background); color: var(--color-text); }
+.reviews-dialog::backdrop { background: #09070fb3; backdrop-filter: blur(5px); }
+.reviews-dialog, .service-dialog { scrollbar-width: thin; scrollbar-color: #8f74bb #141218; color-scheme: dark; }
+.reviews-dialog::-webkit-scrollbar, .service-dialog::-webkit-scrollbar { width: 8px; }
+.reviews-dialog::-webkit-scrollbar-track, .service-dialog::-webkit-scrollbar-track { background: #141218; }
+.reviews-dialog::-webkit-scrollbar-thumb, .service-dialog::-webkit-scrollbar-thumb { background: #8f74bb; border: 2px solid #141218; border-radius: 8px; }
+.reviews-dialog::-webkit-scrollbar-thumb:hover, .service-dialog::-webkit-scrollbar-thumb:hover { background: #b99aff; }
+.reviews-dialog h2 { font-size: clamp(20px, 4vw, 28px); font-weight: 400; margin-bottom: 24px; padding-right: 12px; }
+.reviews-empty { color: var(--color-muted); font-size: 14px; line-height: 1.7; }
+.review-card { padding-block: 20px; border-top: 1px solid #b99aff30; }
+.review-card h3 { color: var(--color-accent); font-size: 16px; font-weight: 400; }
+.review-card__author { margin-top: 8px; color: var(--color-muted); font-size: 12px; font-weight: 300; line-height: 1.6; overflow-wrap: anywhere; }
+.review-card blockquote { margin: 16px 0; color: #c6becd; font-size: 14px; font-weight: 300; line-height: 1.9; white-space: pre-line; }
+.review-card img { max-width: 100%; max-height: 350px; border-radius: 12px; }
+.review-card__header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px 18px; }
+.review-card__identity { flex: 1 1 260px; min-width: 0; }
+.review-card__screenshot { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 34px; padding: 7px 12px; border: 1px solid #b99aff80; border-radius: 999px; background: transparent; color: var(--color-muted); font-size: 12px; font-weight: 400; line-height: 1.6; text-decoration: none; transition: background-color .25s ease, color .25s ease, border-color .25s ease; }
+.review-card__screenshot:hover, .review-card__screenshot:focus-visible { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-background); }
+.review-card__screenshot[aria-disabled="true"] { cursor: default; }
+.review-preview { margin: auto; padding: 48px 16px 16px; width: fit-content; max-width: calc(100vw - 24px); max-height: calc(100dvh - 24px); overflow: auto; border: 1px solid #b99aff70; border-radius: 18px; background: var(--color-background); color: var(--color-text); color-scheme: dark; }
+.review-preview::backdrop { background: #09070fcc; }
+.review-preview__image { display: block; width: auto; height: auto; max-width: 100%; max-height: calc(100dvh - 100px); object-fit: contain; border-radius: 10px; }
+.review-preview__close { position: absolute; top: 5px; right: 8px; width: 36px; height: 36px; font-size: 26px; }
+@media (prefers-reduced-motion: reduce) { .review-card__screenshot { transition: none; } }
+body:has(dialog[open]) { overflow: hidden; }
+.cookie-notice { position: fixed; z-index: 30; bottom: 20px; left: 20px; width: min(540px, calc(100vw - 32px)); padding: 20px; border: 0; border-radius: 18px; background: #211c2bf5; color: var(--color-text); box-shadow: 0 8px 32px #0004; }
+.cookie-notice p { font-size: 12px; font-weight: 300; color: var(--color-muted); line-height: 1.65; margin-bottom: 12px; text-wrap: pretty; }
+.cookie-notice__accept { padding: 10px 22px; border-radius: 100px; background: var(--color-accent); font-size: 12px; }
+@media (max-width: 600px) { .cookie-notice { left: 16px; bottom: 16px; padding: 16px; } }
+
+.scroll-reveal { opacity: 0; }
+.scroll-reveal.is-revealed { animation: reveal-fade 400ms ease-in-out var(--reveal-delay, 0ms) both; }
+@keyframes reveal-fade { from { opacity: 0; } to { opacity: 1; } }
+.ambient-background { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; background: var(--color-background); }
+.cosmos-canvas { width: 100%; height: 100%; }
+/* Цвет совпадает с хедером; canvas рисует только за пределами макета 1200 px. */
+.site-viewport { z-index: 1; }
+.site-canvas > section, .site-canvas > footer { background-color: transparent; }
+.scroll-reveal.reveal-on-navigation { animation: none; opacity: 1; translate: none; }
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal { translate: none; }
+  .scroll-reveal.is-revealed { animation: reveal-fade 300ms ease var(--reveal-delay, 0ms) both; }
+  .service-dialog:not([hidden]) { animation: none; }
+  .contact-button, .works__section [data-action="project"], [data-social] { transition: none; }
+}
+
+/* Общий выбор мессенджера для обсуждения проекта и консультаций. */
+.contact-dialog {
+  width: min(620px, calc(100% - 32px));
+  max-height: calc(100dvh - 40px);
+  overflow: auto;
+  padding: clamp(24px, 5vw, 40px);
+  border: 1px solid #b99aff70;
+  border-radius: 24px;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+.contact-dialog::backdrop { background: #09070fcc; }
+.contact-dialog__close { position: absolute; top: 8px; right: 10px; width: 36px; height: 36px; font-size: 26px; }
+.contact-dialog h2 { padding-right: 14px; font-size: 32px; margin-bottom: 18px; }
+.contact-dialog > p { color: var(--color-muted); font-size: 18px; line-height: 1.8; }
+.contact-dialog__messengers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+.contact-dialog__messengers a { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 15px 5px; border: 0; border-radius: 16px; font-size: 14px; }
+.contact-dialog__messengers img { width: 72px; height: 72px; object-fit: contain; }
+@media (max-width: 480px) { .contact-dialog__messengers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.service-dialog, .contact-dialog, .reviews-dialog, .review-preview { border: 0; }
+
+.legal-footer { padding: 24px 64px 36px; display:flex; justify-content:space-between; gap:24px; color:var(--color-muted); font-size:12px; font-weight:300; line-height:1.7; }
+.legal-footer nav { display:flex; width:100%; justify-content:space-between; gap:24px; }
+.legal-footer nav a:last-child { text-align:right; }
+.legal-footer a { color:inherit; text-underline-offset:4px; }
+.legal-footer a:hover { color:var(--color-accent); }
+@media(max-width:999px) { .legal-footer { padding-inline:var(--page-padding); } }
+@media(max-width:700px) { .legal-footer { flex-direction:column; gap:12px; } }
+
+@media(max-width:700px) { .legal-footer nav { flex-direction:column; gap:12px; } .legal-footer nav a:last-child { text-align:left; } }

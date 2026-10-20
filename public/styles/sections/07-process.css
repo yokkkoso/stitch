@@ -1,0 +1,213 @@
+/* Блок 07: Этапы работы. Позиции в локальной системе 1200 px. */
+
+/* блок 7 */
+.process__section {
+  word-break: break-word;
+  position: relative;
+  background-color: var(--color-background);
+  height: 325px;
+  line-height: normal;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* Как проходит работа со мной */
+.process__text {
+  position: absolute;
+  font-weight: 400;
+  inset: 25.85% 45.75% 61.85% 5.33%;
+  color: var(--color-text);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* этапы нашего взаимодействия */
+.process__eyebrow {
+  position: absolute;
+  font-weight: 400;
+  inset: 20% 71.67% 75.38% 5.42%;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* 6495:596 */
+.process__column {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 10px;
+  top: 148px;
+  width: 344px;
+}
+
+/* 6495:597 / 6495:602 / 6495:607 / 6495:612 / 6495:617 / 6495:622 */
+.process__row,
+.process__row-2,
+.process__row-3,
+.process__row-4,
+.process__row-5,
+.process__row-6 {
+  align-content: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+/* 01 / 04 / 02 / 05 / 03 / 06 */
+.process__text-2,
+.process__text-5,
+.process__text-8,
+.process__text-11,
+.process__text-14,
+.process__text-17 {
+  font-weight: 500;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+}
+
+/* Знакомство / Дизайн / Условия / Сборка / Прототип / Запуск */
+.process__text-3,
+.process__text-6,
+.process__text-9,
+.process__text-12,
+.process__text-15,
+.process__text-18 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+}
+
+/* Обсуждаем задачу и материалы / Согласуем оформление / Составляем договор / Собираю и настраиваю сайт / Согласуем структуру и тексты / Проверяю сайт и  */
+.process__text-4,
+.process__text-7,
+.process__text-10,
+.process__text-13,
+.process__text-16,
+.process__text-19 {
+  font-weight: 400;
+  min-width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: min-content;
+}
+
+/* 6495:601 */
+.process__column-2 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 10px;
+  top: 239px;
+  width: 344px;
+}
+
+/* 6495:606 */
+.process__column-3 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 428px;
+  padding: 10px;
+  top: 148px;
+  width: 344px;
+}
+
+/* 6495:611 */
+.process__column-4 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 428px;
+  padding: 10px;
+  top: 239px;
+  width: 344px;
+}
+
+/* 6495:616 */
+.process__column-5 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 792px;
+  padding: 10px;
+  top: 148px;
+  width: 344px;
+}
+
+/* 6495:621 */
+.process__column-6 {
+  position: absolute;
+  border-color: var(--color-muted);
+  border-style: solid;
+  border-top-width: 2px;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  left: 792px;
+  padding: 10px;
+  top: 239px;
+  width: 344px;
+}
+
+/* Синхронный лиловый перелив поверх исходных линий, без изменения размеров карточек. */
+.process__section > [class^="process__column"]::before,
+.faq__item summary::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent 0%, rgba(185, 154, 255, .25) 30%, #b99aff 50%, rgba(185, 154, 255, .25) 70%, transparent 100%);
+  background-size: 200% 100%;
+  animation: process-line-shimmer 4s ease-in-out infinite alternate;
+}
+@keyframes process-line-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: 0% 0; }
+}

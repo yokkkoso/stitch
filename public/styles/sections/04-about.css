@@ -1,0 +1,314 @@
+/* Блок 04: Обо мне. Позиции в локальной системе 1200 px. */
+
+/* блок 4 */
+.about__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 450px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* За никнеймом Stitch — Кристина */
+.about__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 18.67% 39.75% 72.44% 5.33%;
+  line-height: normal;
+  color: var(--color-text);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* обо мне */
+.about__eyebrow {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 14.44% 88.75% 82.22% 5.42%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* 6495:426 */
+.about__experience {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  left: calc(50% + 322.5px);
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-radius: 10px;
+  text-align: center;
+  top: calc(50% - 30.5px);
+  width: 133px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 3+ / 15+ */
+.about__text,
+.about__text-7 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 32px;
+  width: 100%;
+}
+
+/* года опыта / Медицина · Психология · IT / Дизайнер & Тестировщик / проектов */
+.about__text-2,
+.about__text-4,
+.about__text-6,
+.about__text-8 {
+  font-weight: 300;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-muted);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* 6495:429 */
+.about__industries {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  left: calc(50% + 396px);
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-radius: 10px;
+  text-align: center;
+  top: calc(50% + 69.5px);
+  width: 280px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Близкие сферы / Два взгляда */
+.about__text-3,
+.about__text-5 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 24px;
+  width: 100%;
+}
+
+/* 6495:432 */
+.about__perspective {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  left: calc(50% + 396px);
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-radius: 10px;
+  text-align: center;
+  top: calc(50% + 164.5px);
+  width: 280px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 6495:435 */
+.about__projects {
+  word-break: break-word;
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  left: calc(50% + 469.5px);
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-radius: 10px;
+  text-align: center;
+  top: calc(50% - 30.5px);
+  width: 133px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 6495:438 */
+.about__biography {
+  position: absolute;
+  background-color: var(--color-surface);
+  align-content: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  left: 64px;
+  padding: 24px;
+  border-radius: 10px;
+  top: 148px;
+  width: 778px;
+}
+
+/* стич 2 1 */
+.about__layer {
+  position: relative;
+  border-radius: 6px;
+  flex-shrink: 0;
+  width: 234px;
+  height: 234px;
+}
+
+/* 6495:440 */
+.about__biography-text {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  font-weight: 300;
+  gap: 8px;
+  align-items: flex-start;
+  line-height: normal;
+  min-width: 1px;
+  position: relative;
+  color: var(--color-muted);
+  font-size: 14px;
+}
+
+/* По образованию я медсестра. В 2023 году увлеклась дизайном во время учебы — хобби постепен / Опыт тестирования сайтов помогает создавать понятные инте */
+.about__text-9,
+.about__text-10,
+.about__text-11 {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+/* 6495:444 */
+.about__reviews-button {
+  position: absolute;
+  background-color: var(--color-accent);
+  align-content: stretch;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  left: 274px;
+  padding-inline: 24px;
+  padding-block: 14px;
+  border-radius: 100px;
+  top: 228px;
+}
+
+/* Отзывы о моей работе */
+.about__text-12 {
+  word-break: break-word;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-background);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* стич 2 2 */
+.about__layer-2 {
+  position: absolute;
+  height: 270px;
+  left: 5px;
+  border-radius: 6px;
+  top: 12px;
+  width: 274px;
+}
+
+/* layer */
+.about__layer-3 {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 6px;
+}
+
+/* image */
+.about__image {
+  position: absolute;
+  height: 205.69%;
+  left: -20.43%;
+  max-width: none;
+  top: -8.53%;
+  width: 137.14%;
+}
+
+/* Portal */
+.about__decoration {
+  position: absolute;
+  height: 28px;
+  left: 16px;
+  top: 13px;
+  width: 26px;
+}
+
+/* image */
+.about__image-2,
+.about__image-3,
+.about__image-4,
+.about__image-5 {
+  position: absolute;
+  display: block;
+  inset: 0;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Portal */
+.about__decoration-2 {
+  position: absolute;
+  height: 28px;
+  left: 732px;
+  top: 243px;
+  width: 26px;
+}
+
+/* Portal */
+.about__decoration-3 {
+  position: absolute;
+  height: 16px;
+  left: 8px;
+  top: 8px;
+  width: 15px;
+}
+
+/* Portal */
+.about__decoration-4 {
+  position: absolute;
+  height: 16px;
+  left: 755px;
+  top: 258px;
+  width: 15px;
+}

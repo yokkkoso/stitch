@@ -1,0 +1,13 @@
+/* Experimental desktop scale. Remove this stylesheet and script to disable. */
+@media (min-width: 1000px) {
+ .site-viewport { width: calc(1200px * var(--desktop-scale, 1)); }
+ .site-canvas, .site-header__inner { zoom: var(--desktop-scale, 1); }
+ .site-header { width: calc(1200px * var(--desktop-scale, 1)); height: calc(60px * var(--desktop-scale, 1)); }
+}
+
+/* Прозрачные края хедера продолжают боковое звёздное поле. */
+@media (min-width: 1000px) {
+ .site-header {
+  background: linear-gradient(to right, transparent 0, var(--color-background) 60px, var(--color-background) calc(100% - 60px), transparent 100%);
+ }
+}

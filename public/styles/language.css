@@ -1,0 +1,29 @@
+/* Outside the scaled page canvas; also used on legal pages. */
+.language-switch {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #292133;
+  color: #c4aaff;
+  box-shadow: 0 4px 18px #0003;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .2s, transform .2s;
+}
+.language-switch:hover { background: #382b49; }
+.language-switch:active { transform: scale(.94); }
+.language-switch:focus-visible { outline: 2px solid #b99aff; outline-offset: 4px; }
+@media (max-width: 599px) {
+  .language-switch { width: 44px; height: 44px; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); font-size: 11px; }
+}
+html[lang="en"] .hero__title { overflow-wrap: normal; }

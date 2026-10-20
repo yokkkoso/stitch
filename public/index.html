@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Создание сайтов под ключ. Кристина | Stitch.">
+    <title>Kristina | Stitch | Web-designer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <script src="src/reload-reset.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="src/config.js" defer></script>
+    <script src="src/content.js" defer></script>
+    <script src="src/sections/01-hero.js" defer></script>
+    <script src="src/sections/02-works.js" defer></script>
+    <script src="src/sections/03-problems.js" defer></script>
+    <script src="src/sections/04-about.js" defer></script>
+    <script src="src/sections/05-benefits.js" defer></script>
+    <script src="src/sections/06-services.js" defer></script>
+    <script src="src/sections/07-process.js" defer></script>
+    <script src="src/sections/08-consultation.js" defer></script>
+    <script src="src/sections/09-faq.js" defer></script>
+    <script src="src/sections/10-contacts.js" defer></script>
+    <script src="src/app.js" defer></script>
+    <script src="src/interactions.js" defer></script>
+  <link rel="stylesheet" href="styles/desktop-autoscale.css">
+    <script src="src/desktop-autoscale.js" defer></script>
+  </head>
+  <body>
+    <!-- JavaScript собирает 10 независимых блоков в порядке из config.js. -->
+    <div class="site-viewport" id="site-viewport">
+      <main class="site-canvas" id="portfolio"></main>
+    </div>
+
+    <aside class="service-dialog" id="service-dialog" aria-labelledby="service-title" hidden>
+      <button class="service-dialog__close" type="button" aria-label="Закрыть">×</button>
+      <p class="service-dialog__eyebrow">Что входит в стоимость</p>
+      <h2 id="service-title"></h2>
+      <ul class="service-dialog__list"></ul>
+    </aside>
+
+    <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">
+      <button class="contact-dialog__close" type="button" aria-label="Закрыть">×</button>
+      <h2 id="contact-title"></h2>
+      <p id="contact-description"></p>
+      <div class="contact-dialog__messengers">
+        <a data-social="telegram"><img src="assets/custom/social-telegram.webp" alt="" width="72" height="72"><span>Telegram</span></a>
+        <a data-social="discord"><img src="assets/custom/social-discord.webp" alt="" width="72" height="72"><span>Discord</span></a>
+        <a data-social="vk"><img src="assets/custom/social-vk.webp" alt="" width="72" height="72"><span>ВКонтакте</span></a>
+        <a data-social="max"><img src="assets/custom/social-messenger.webp" alt="" width="72" height="72"><span>MAX</span></a>
+      </div>
+    </dialog>
+
+    <dialog class="reviews-dialog" id="reviews-dialog" aria-labelledby="reviews-title">
+      <button class="reviews-dialog__close" type="button" aria-label="Закрыть">×</button>
+      <h2 id="reviews-title">Отзывы о моей работе</h2>
+      <div class="reviews-list"></div>
+    </dialog>
+    <aside class="cookie-notice" aria-label="Настройки хранения данных" hidden>
+      <p>Этот сайт сохраняет ваш выбор в&nbsp;браузере, чтобы не&nbsp;показывать это уведомление повторно. Аналитические и рекламные cookie не&nbsp;используются.</p>
+      <button type="button" class="cookie-notice__accept contact-button">Понятно</button>
+    </aside>
+    <!-- Общие эффекты и обработчик всех якорей подключаются в самом низу страницы. -->
+    <dialog class="review-preview" id="review-preview" aria-label="Скриншот отзыва">
+      <button class="review-preview__close" type="button" aria-label="Закрыть скриншот" autofocus>×</button>
+      <img class="review-preview__image" alt="">
+    </dialog>
+    <link rel="stylesheet" href="styles/digital-gallery.css?v=digital-spacing-1">
+    <link rel="stylesheet" href="styles/mobile.css?v=figma-phone-1">
+    <script src="src/digital-gallery.js?v=digital-images-3" defer></script>
+    <script src="src/motion.js" defer></script>
+    <script src="src/cosmos.js" defer></script>
+    <script src="src/reviews-and-notice.js" defer></script>
+    <noscript>Для просмотра этой версии сайта включите JavaScript.</noscript>
+  <link rel="stylesheet" href="styles/language.css">
+<script src="src/translations.js" defer></script>
+<script src="src/language.js" defer></script>
+</body>
+</html>

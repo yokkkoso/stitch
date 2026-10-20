@@ -1,0 +1,8 @@
+node_modules
+*.log
+.vercel
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

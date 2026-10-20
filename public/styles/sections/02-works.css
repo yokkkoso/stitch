@@ -1,0 +1,263 @@
+/* Блок 02: Мои работы. Позиции в локальной системе 1200 px. */
+
+/* блок 2 */
+.works__section {
+  position: relative;
+  background-color: var(--color-background);
+  height: 968px;
+  overflow: clip;
+  width: 1200px;
+}
+
+/* Мои работы */
+.works__heading {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 6.71% 74.42% 89.15% 5.33%;
+  line-height: normal;
+  color: var(--color-accent);
+  font-size: 32px;
+  white-space: nowrap;
+}
+
+/* В каждом проекте соединяю особенности бизнеса, понятную структуру и визуальную подачу */
+.works__description {
+  word-break: break-word;
+  position: absolute;
+  font-weight: 400;
+  inset: 11.67% 6.83% 86.05% 5.33%;
+  line-height: normal;
+  color: var(--color-muted);
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* 6495:370 */
+.works__column {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 387px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  left: 64px;
+  padding-bottom: 32px;
+  padding-top: 301px;
+  padding-inline: 32px;
+  border-radius: 20px;
+  top: 566px;
+  width: 526px;
+}
+
+/* layer */
+.works__layer,
+.works__layer-3,
+.works__layer-5,
+.works__layer-7 {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+/* image */
+.works__image,
+.works__image-2,
+.works__image-3,
+.works__image-4 {
+  position: absolute;
+  max-width: none;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+/* layer */
+.works__layer-2,
+.works__layer-4,
+.works__layer-6,
+.works__layer-8 {
+  position: absolute;
+  background-image: linear-gradient(to bottom,
+    rgba(20,18,24,0) 38%,
+    rgba(20,18,24,.04) 46%,
+    rgba(20,18,24,.16) 54%,
+    rgba(20,18,24,.36) 62%,
+    rgba(20,18,24,.64) 70%,
+    rgba(20,18,24,.84) 78%,
+    rgba(20,18,24,.96) 86%,
+    #141218 93%);
+  inset: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+/* 6495:371 / 6495:378 / 6495:385 / 6495:392 */
+.works__row,
+.works__row-3,
+.works__row-5,
+.works__row-7 {
+  align-content: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+/* 6495:372 / 6495:379 / 6495:386 / 6495:393 */
+.works__column-2,
+.works__column-4,
+.works__column-6,
+.works__column-8 {
+  word-break: break-word;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  width: 320px;
+}
+
+/* Mediapulse */
+.works__text,
+.works__text-4,
+.works__text-7,
+.works__text-10 {
+  font-weight: 500;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Лендинг для фотостудии */
+.works__text-2,
+.works__text-5,
+.works__text-8,
+.works__text-11 {
+  font-weight: 400;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* 6495:375 / 6495:382 / 6495:389 */
+.works__row-2,
+.works__row-4,
+.works__row-6 {
+  border-width: 2px;
+  border-color: var(--color-accent);
+  border-style: solid;
+  align-content: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 24px;
+  padding-block: 14px;
+  position: relative;
+  border-radius: 100px;
+  flex-shrink: 0;
+}
+
+/* Смотреть */
+.works__text-3,
+.works__text-6,
+.works__text-9 {
+  word-break: break-word;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-text);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* 6495:377 */
+.works__column-3 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 387px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  left: 610px;
+  padding-bottom: 32px;
+  padding-top: 301px;
+  padding-inline: 32px;
+  border-radius: 20px;
+  top: 566px;
+  width: 526px;
+}
+
+/* 6495:384 */
+.works__column-5 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 387px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  left: 64px;
+  padding-bottom: 32px;
+  padding-top: 301px;
+  padding-inline: 32px;
+  border-radius: 20px;
+  top: 159px;
+  width: 526px;
+}
+
+/* 6495:391 */
+.works__column-7 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 387px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  left: 610px;
+  padding-bottom: 32px;
+  padding-top: 301px;
+  padding-inline: 32px;
+  border-radius: 20px;
+  top: 159px;
+  width: 526px;
+}
+
+/* 6495:396 */
+.works__row-8 {
+  background-color: var(--color-accent);
+  align-content: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 24px;
+  padding-block: 14px;
+  position: relative;
+  border-radius: 100px;
+  flex-shrink: 0;
+}
+
+/* Смотреть */
+.works__text-12 {
+  word-break: break-word;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-background);
+  font-size: 14px;
+  white-space: nowrap;
+}
